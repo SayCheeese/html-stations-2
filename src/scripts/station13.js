@@ -2,7 +2,7 @@ function changeBackgroundColor(e) {
   // ここに背景色を変える処理を書く。
   if(e.target.checked){ 
     console.log("チェックされました。色をつけます");
-    text.style.backgroundColor = "#ED3833";
+    text.style.backgroundColor = "red";
     console.log("色をつけました");
   } else {
     text.style.backgroundColor = "#ffffff";
